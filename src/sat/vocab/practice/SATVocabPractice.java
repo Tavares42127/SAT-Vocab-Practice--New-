@@ -38,7 +38,7 @@ public class SATVocabPractice {
         Statement stmt = null;
         ResultSet rs = null;
         String sql = "SELECT FROM WORDS WHERE WORDNUMBER =" + questionNumbersSorted[i] ;
-        currentWord = con.String(sql);
+        currentWord = con.String(sql); //Run Current Word String
         //System.out.println("The word number selected is"+ questionNumbersSorted[i]);
 }
         }

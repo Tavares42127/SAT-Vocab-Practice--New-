@@ -36,9 +36,14 @@ public class SATVocabPractice {
             for (int i=0; i<=30; i++)
 {
         Statement stmt = null;
-        ResultSet rs = null;
+        ResultSet rs = stmt.executeQuery("SELECT WORD FROM SAT Vocab");
+        while (rs.next())
+        {
+            String getWord = rs.getString("WORD");
+            System.out.println(getWord);
+            getWord.toString();
+        }
         String sql = "SELECT FROM WORDS WHERE WORDNUMBER =" + questionNumbersSorted[i] ;
-        currentWord = con.String(sql);
         //System.out.println("The word number selected is"+ questionNumbersSorted[i]);
 }
         }

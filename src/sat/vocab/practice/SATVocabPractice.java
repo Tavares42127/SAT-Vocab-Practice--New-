@@ -12,11 +12,6 @@ package sat.vocab.practice;
  * @author Brandon Tavares
  * 
  */
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
 import java.util.Random;
 //import java.util.Scanner;

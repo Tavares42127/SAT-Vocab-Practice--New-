@@ -1,30 +1,30 @@
-labyrinth | n: 1. an intricate combination of paths or passages in which it is difficult to find one's way or to reach the exit. 2. any confusingly intricate state of things or events; a bewildering complex.
-cower | v: 1. to crouch, as in fear or shame.
-counterfeit |
-talisman |
-abrasive |
-covert |
-abhor | v: 1. to regard with extreme repugnance or aversion; detest utterly; loathe; abominate.
-nullify |
-enigma |
-laceration | n: 1.  a rough, jagged tear.
-finish |
-defenestrate | v: 1. to throw (a person or thing) out of a window.
-tawdry |
-reprieve |
-ephemeral |
-tentative | 
-cryptic |
-rescind |
-abstain |
-acrid |
-poignant |
-acrophobia | n: 1. a pathological fear of heights.
-hieroglyphics |
-retention | n: 1. the act or power of remembering things; memory.
-hinder |
-obsolete |
-erratic |
-portend | v: 1. to indicate in advance; to foreshadow or presage, as an omen does.
-revere | v: 1. to regard with respect tinged with awe; venerate.
-bulwark |
+labyrinth| n: 1. an intricate combination of paths or passages in which it is difficult to find one's way or to reach the exit. /n 2. any confusingly intricate state of things or events; a bewildering complex.
+cower| v: 1. to crouch, as in fear or shame.
+counterfeit|
+talisman|
+abrasive|
+covert|
+abhor| v: 1. to regard with extreme repugnance or aversion; detest utterly; loathe; abominate.
+nullify|
+enigma|
+laceration| n: 1.  a rough, jagged tear.
+finish|
+defenestrate| v: 1. to throw (a person or thing) out of a window.
+tawdry|
+reprieve|
+ephemeral|
+tentative| 
+cryptic|
+rescind|
+abstain|
+acrid|
+poignant|
+acrophobia| n: 1. a pathological fear of heights.
+hieroglyphics|
+retention| n: 1. the act or power of remembering things; memory.
+hinder|
+obsolete|
+erratic|
+portend| v: 1. to indicate in advance; to foreshadow or presage, as an omen does.
+revere| v: 1. to regard with respect tinged with awe; venerate.
+bulwark|

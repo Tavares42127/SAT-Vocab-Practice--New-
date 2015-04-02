@@ -32,8 +32,13 @@ public class MainView extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jToggleButton1 = new javax.swing.JToggleButton();
+        score = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 255, 204));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        setPreferredSize(new java.awt.Dimension(1920, 1080));
 
         defintionHeader.setText("Definition:");
 
@@ -45,6 +50,10 @@ public class MainView extends javax.swing.JFrame {
 
         jToggleButton1.setText("Submit Answer");
 
+        score.setText("0");
+
+        jLabel3.setText("Score:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -52,6 +61,10 @@ public class MainView extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(63, 63, 63)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(score))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(defintionHeader)
                         .addGap(18, 18, 18)
@@ -77,7 +90,11 @@ public class MainView extends javax.swing.JFrame {
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(45, 45, 45)
                 .addComponent(jToggleButton1)
-                .addContainerGap(97, Short.MAX_VALUE))
+                .addGap(38, 38, 38)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(score))
+                .addContainerGap(45, Short.MAX_VALUE))
         );
 
         pack();
@@ -122,7 +139,9 @@ public class MainView extends javax.swing.JFrame {
     private javax.swing.JLabel definitionLabel;
     private javax.swing.JLabel defintionHeader;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JLabel score;
     // End of variables declaration//GEN-END:variables
 }

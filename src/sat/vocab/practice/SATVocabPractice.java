@@ -13,17 +13,18 @@ import java.util.Scanner;
 
 public class SATVocabPractice {
     public static void main(String[] args) {
-    File f = new File("Words.txt");
+    File f = new File("C:/Users/Brandon/Documents/NetBeansProjects/SAT Vocab Practice/src/sat/vocab/practice/Words.txt");
         try{
             ArrayList<String> lines = get_arraylist_from_file(f);
             for(int x = 0; x < lines.size(); x++){
                 System.out.println(lines.get(x));
             }
+            System.out.println("Reading");
         }
         catch(Exception e){
             e.printStackTrace();
         }
-        System.out.println("Done");
+        
 
     }
     public static ArrayList<String> get_arraylist_from_file(File f) 
@@ -32,6 +33,7 @@ public class SATVocabPractice {
         ArrayList<String> list = new ArrayList<String>();
         s = new Scanner(f);
         while (s.hasNext()) {
+            System.out.println(s.next());
             list.add(s.next());
         }
         s.close();

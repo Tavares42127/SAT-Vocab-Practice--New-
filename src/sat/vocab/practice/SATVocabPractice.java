@@ -39,27 +39,6 @@ public class SATVocabPractice
     {
         return definition;
     }
-public class Reader 
-{
-    public void main(String[] args)
-    {
-        List<user> list = new ArrayList<user>();
-        File file = new File("Words.txt");
-        BufferedReader reader = null;
-        try
-        {
-            reader = new BufferedReader(new FileReader(file));
-            String line;
-            while ((line = reader.readline()) != null)
-            {
-                String[] SplitedString = line.split("|");
-                Word word = new Word();
-                word.setName(splitedString[0]);
-                word.setScore(Integer.parseInt(splitedString[1]))
-            }
-        }
-    }
-}        
     }
     //static void suffleArray(int[] ar){
       //Random rnd = new Random();

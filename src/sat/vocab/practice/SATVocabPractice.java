@@ -5,23 +5,16 @@ package sat.vocab.practice;
  * @author Brandon Tavares
  * 
  */
-//<<<<<<< HEAD
-//import java.sql.ResultSet;
-//import java.sql.Statement;
-//import java.sql.Connection;
-//import java.sql.DriverManager;
-//import java.sql.SQLException;
-//import java.util.Scanner;
-//=======
 
-//>>>>>>> origin/master
-//import java.util.Random;
-public class SATVocabPractice 
-{
- import java.io.File;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+
+public class SATVocabPractice 
+{
+
 
 public class X {
     public static void main(String[] args) {

@@ -11,12 +11,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
-public class SATVocabPractice 
-{
-
-
-public class X {
+public class SATVocabPractice {
     public static void main(String[] args) {
     File f = new File("Words.txt");
         try{
@@ -43,4 +38,4 @@ public class X {
         return list;
     }
 }   
-}
+

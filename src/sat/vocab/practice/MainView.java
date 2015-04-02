@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sat.vocab.practice;
 
 /**
  *
  * @author Brandon
  */
+ 
 public class MainView extends javax.swing.JFrame {
 
     /**
@@ -36,19 +32,19 @@ public class MainView extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 255, 204));
+        setBackground(new java.awt.Color(0, 255, 0));
         setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        setPreferredSize(new java.awt.Dimension(1920, 1080));
+        setPreferredSize(new java.awt.Dimension(400, 300));
 
         defintionHeader.setText("Definition:");
 
-        definitionLabel.setText("Definition Here");
+        definitionLabel.setText("Deafult Text");
 
         jLabel1.setText("Your Answer:");
 
-        jTextField1.setText("jTextField1");
+        jTextField1.setText("");
 
-        jToggleButton1.setText("Submit Answer");
+        jToggleButton1.setText("Check Answer");
 
         score.setText("0");
 

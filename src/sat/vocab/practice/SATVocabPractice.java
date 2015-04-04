@@ -33,8 +33,9 @@ public class SATVocabPractice {
         ArrayList<String> list = new ArrayList<String>();
         s = new Scanner(f);
         while (s.hasNext()) {
-            System.out.println(s.next());
-            list.add(s.next());
+            String temp=s.next();
+            System.out.println(temp);
+            list.add(temp);
         }
         s.close();
         return list;

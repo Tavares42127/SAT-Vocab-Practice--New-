@@ -1,3 +1,4 @@
+
 package sat.vocab.practice;
 
 /**
@@ -6,39 +7,29 @@ package sat.vocab.practice;
  * 
  */
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.io.FileReader;
+import com.opencsv.CSVReader;
+import java.util.Arrays;
 
 public class SATVocabPractice {
-    public static void main(String[] args) {
-    File f = new File("C:/Users/Brandon/Documents/NetBeansProjects/SAT Vocab Practice/src/sat/vocab/practice/Words.txt");
-        try{
-            ArrayList<String> lines = get_arraylist_from_file(f);
-            for(int x = 0; x < lines.size(); x++){
-                System.out.println(lines.get(x));
-            }
-            System.out.println("Reading");
-        }
-        catch(Exception e){
-            e.printStackTrace();
-        }
-        
-
-    }
-    public static ArrayList<String> get_arraylist_from_file(File f) 
-        throws FileNotFoundException {
-        Scanner s;
-        ArrayList<String> list = new ArrayList<String>();
-        s = new Scanner(f);
-        while (s.hasNext()) {
-            String temp=s.next();
-            System.out.println(temp);
-            list.add(temp);
-        }
-        s.close();
-        return list;
-    }
-}   
-
+    @SuppressWarnings("resource")
+   public static void main(String[] args) throws Exception
+   {
+       
+      //Build reader instance
+      //Read data.csv
+      //Default seperator is comma
+      //Default quote character is double quote
+      //Start reading from line number 2 (line numbers start from zero)
+      CSVReader reader = new CSVReader(new FileReader("C:/Users/Jordan/Documents/GitHub/SAT-Vocab-Practice--New-/src/sat/vocab/practice/Words.txt"), '|' , '"' , 0);
+       
+      //Read CSV line by line and use the string array as you want
+      String[] nextLine;
+      while ((nextLine = reader.readNext()) != null) {
+         if (nextLine != null) {
+            //Verifying the read data here
+            System.out.println(Arrays.toString(nextLine));
+         }
+       }
+   }
+} 

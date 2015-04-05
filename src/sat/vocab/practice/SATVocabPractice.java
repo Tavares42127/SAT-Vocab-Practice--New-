@@ -21,7 +21,7 @@ public class SATVocabPractice {
       //Default seperator is comma
       //Default quote character is double quote
       //Start reading from line number 2 (line numbers start from zero)
-      CSVReader reader = new CSVReader(new FileReader("C:/Users/Jordan/Documents/GitHub/SAT-Vocab-Practice--New-/src/sat/vocab/practice/Words.txt"), '|' , '"' , 0);
+      CSVReader reader = new CSVReader(new FileReader("C:/Users/Brandon/Documents/NetBeansProjects/SAT Vocab Practice/src/sat/vocab/practice/Words.txt"), '|' , '"' , 0);
        
       //Read CSV line by line and use the string array as you want
       String[] nextLine;

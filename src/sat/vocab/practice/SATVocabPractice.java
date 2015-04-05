@@ -10,11 +10,15 @@ package sat.vocab.practice;
 import java.io.FileReader;
 import com.opencsv.CSVReader;
 import java.util.Arrays;
+import java.util.ArrayList;
 
 public class SATVocabPractice {
     @SuppressWarnings("resource")
    public static void main(String[] args) throws Exception
    {
+       
+       ArrayList words = new ArrayList(); //Word arrays 
+       ArrayList definitions = new ArrayList(); //Definition arrays. 
        
       //Build reader instance
       //Read data.csv
@@ -29,7 +33,11 @@ public class SATVocabPractice {
          if (nextLine != null) {
             //Verifying the read data here
             System.out.println(Arrays.toString(nextLine));
+            definitions.add(Arrays.toString(nextLine).split("|"));
+            words.add(Arrays.toString(nextLine).split("\\|"));
          }
        }
+            System.out.println(words); //Print the word list
+            System.out.println(definitions); //Print the definitions
    }
 } 

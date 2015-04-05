@@ -20,7 +20,7 @@ abstain|v: 1. to hold oneself back voluntarily, especially from something regard
 acrid|adj: 1. sharp or biting to the taste or smell; bitterly pungent; irritating to the eyes, nose, etc.
 poignant|adj: 1. keenly distressing to the feelings.
 acrophobia|n: 1. a pathological fear of heights.
-hieroglyphs|n: 1. a figure or symbol with a hidden meaning.
+hieroglyph|n: 1. a figure or symbol with a hidden meaning.
 retention|n: 1. the act or power of remembering things; memory.
 hinder|v: 1. to cause delay, interruption, or difficulty in; hamper; impede.
 obsolete|adj: 1. no longer in general use; fallen into disuse.

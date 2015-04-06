@@ -87,9 +87,9 @@ public static void main(String[] arg) throws Exception {
 "n: 1. a wall of earth or other material built for defense; rampart."};
 
  score = 0;
- System.out.println( "Welcome to SAT Vocab Practice!" );
- System.out.println( "Your Current Score Is" + score );
- System.out.println("Heres First Question!");
+ System.out.println( "Welcome to the SAT Vocabulary Practice Game!" );
+ System.out.println( "Your Current Score Is " + score );
+ System.out.println("Here's The First Question!");
     int i;
  for (i=0; i<numberOfQuestions; i++){
  System.out.println("-----------------------------");
@@ -107,8 +107,9 @@ else{
     numberOfQuestionsMissed++;
 }
  } //Ends For Loop
- 
+ System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
  System.out.println("You Missed " + numberOfQuestionsMissed + " Questions!");
+ System.out.println("Your Final Score Out of 30 is " + score);
 }//Ends Main Class
 }//Ends Class
 

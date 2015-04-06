@@ -1,4 +1,3 @@
-
 package sat.vocab.practice;
 
 /**
@@ -47,3 +46,4 @@ public class SATVocabPractice {
             System.out.println(definitions); //Print the definitions
    }
 } 
+
